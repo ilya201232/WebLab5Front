@@ -1,0 +1,124 @@
+.brokers-list .first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 22px;
+}
+
+.brokers-list .line-title {
+    font-family: 'Comfortaa', serif;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.brokers-list .middle-btn {
+    width: 290px;
+}
+
+.brokers-list .table-btn {
+    width: 230px;
+    height: 42px;
+}
+
+.brokers-list .table-btn .btn-text {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+.brokers-list th:nth-child(1) {
+    width: 361px;
+    text-align: left;
+}
+
+.brokers-list th:nth-child(2) {
+    width: 244px;
+    text-align: center;
+}
+
+.brokers-list th:nth-child(3) {
+    width: 695px;
+    text-align: left;
+}
+
+.brokers-list td:nth-child(2) {
+    text-align: center;
+}
+
+.mobile-table td {
+    padding: 0 0 0 10px !important;
+}
+
+.brokers-list .centered-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 97px;
+}
+
+.brokers-list .add-broker-form, .edit-broker-form {
+    width: 62vw;
+    min-width: 885px;
+}
+
+.brokers-list .add-broker-form .params .params-names,.edit-broker-form .params .params-names {
+    padding-top: 6px;
+    gap: 51px;
+}
+
+.brokers-list .add-broker-form  .params .params-inputs, .edit-broker-form .params .params-inputs {
+    gap: 33px;
+}
+
+.brokers-list .add-broker-form .control-buttons, .edit-broker-form .control-buttons {
+    gap: 85px;
+}
+
+.brokers-list-mobile .line-title {
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.brokers-list-mobile .first-line {
+    padding-left: 28px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.brokers-list-mobile th:nth-child(1) {
+    width: 233px;
+    text-align: left;
+}
+
+.brokers-list-mobile th:nth-child(2) {
+    width: 54px;
+    text-align: center;
+}
+
+
+.brokers-list .add-broker-form.mobile-dialog .params .params-names,.edit-broker-form.mobile-dialog .params .params-names {
+    padding-top: 6px;
+    gap: 51px;
+}
+
+.brokers-list .add-broker-form.mobile-dialog .params .params-inputs,.edit-broker-form.mobile-dialog .params .params-inputs {
+    gap: 33px;
+}
+
+.brokers-list .add-broker-form.mobile-dialog .control-buttons,.edit-broker-form.mobile-dialog .control-buttons {
+    gap: 85px;
+}
+
+.brokers-list .mobile-dialog .control-buttons {
+    gap: 60px;
+    padding: 21px 0;
+}
+
+.brokers-list .edit-broker-form.mobile-dialog .wrapper {
+    gap: 20px;
+}

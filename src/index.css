@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+
+    font-family: 'Comfortaa', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*############# TABLE ################*/
+
+.mobile-table {
+    font-size: 15px !important;
+    line-height: 18px !important;
+}
+
+.mobile-table td {
+    font-size: 18px !important;
+    line-height: 21px !important;
+
+    height: 48px !important;
+    padding: 0;
+}
+
+
+.table {
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    line-height: 21px;
+
+    overflow-x: auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+
+    font-weight: normal;
+
+    color: #EEEEEE;
+    background-color: #68655B;
+}
+
+td {
+    padding: 10px;
+
+    width: 41px;
+
+    /*  Height must be set manually in the end implementation  */
+
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*  Setting text-align to center/left/right must done manually in the end implementation */
+/*  Setting columns sizes must done manually in the end implementation */
+
+tr:nth-child(odd) {
+    background: #D8D6CB;
+}
+
+tr:nth-child(odd) button {
+    background: #D8D6CB;
+}
+
+tr:nth-child(odd) button:hover {
+    background: #c7c5bb;
+}
+
+tr:nth-child(odd) button:active {
+    background: #b7b5ab;
+}
+
+tr:nth-child(even) {
+    background: #F4F3E7;
+}
+
+tr:nth-child(even) button {
+    background: #F4F3E7;
+}
+
+tr:nth-child(even) button:hover {
+    background: #e3e2d7;
+}
+
+tr:nth-child(even) button:active {
+    background: #d2d1c7;
+}
+
+tr:hover .table-btns {
+    display: flex;
+}
+
+.table-btns {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*  Gap must be set manually in the end implementation  */
+}
+
+.table-btn {
+    /*  Height and width must be set manually in the end implementation  */
+
+    cursor: pointer;
+}
+
+/*############# DIALOG ################*/
+
+.mobile-dialog {
+
+    min-width: 0 !important;
+
+    min-height: 500px;
+
+    top: 78px !important;
+    height: 85vh !important;
+    width: 91vw !important;
+}
+
+.mobile-dialog .dialog-header-text {
+    font-family: 'Comfortaa', serif !important;
+
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.mobile-dialog .wrapper {
+    justify-content: start !important;
+    align-items: center;
+
+    padding: 30px 27px;
+
+    height: calc(100% - 60px) !important;
+
+    gap: 31px;
+}
+
+.mobile-dialog .params {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 10px 13px 12px !important;
+}
+
+.mobile-dialog .param {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+    padding: 10px;
+}
+
+.mobile-dialog .params-text {
+    font-family: 'Comfortaa', serif !important;
+    font-size: 20px !important;
+    line-height: 22px !important;
+
+    text-align: left !important;
+}
+
+.mobile-dialog .params-text-Cinzel {
+    font-family: 'Cinzel', serif !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+}
+
+.mobile-dialog input {
+
+    padding: 10px;
+
+    height: calc(42px - 20px - 4px);
+    width: calc(100% - 20px - 4px);
+
+    border-radius: 10px;
+    border-width: 2px;
+    background: #FAFAFA;
+
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #001126;
+}
+
+
+.dialog {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 90vw;
+    min-width: 700px;
+    height: 517px;
+    top: 132px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+
+    padding: 0;
+}
+
+.dialog .wrapper {
+    height: 100%;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dialog-header-text {
+    text-align: center;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.dialog .wrapper .params {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 66px;
+
+    padding: 0 35px 0 68px;
+}
+
+.params .params-names {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 180px;
+
+    /*  Gap must be set manually in the end implementation  */
+}
+
+.params .params-inputs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /*  Gap must be set manually in the end implementation  */
+}
+
+.params-text {
+    font-family: 'Roboto', serif;
+    font-size: 32px;
+    line-height: 130%;
+    /* or 42px */
+
+    text-align: right;
+}
+
+input {
+    padding: 10px;
+    gap: 10px;
+
+    height: calc(59px - 20px - 4px);
+
+    border-radius: 10px;
+    background: #FAFAFA;
+
+    font-family: 'Roboto', serif;
+    font-size: 27px;
+    line-height: 32px;
+
+    color: #001126;
+}
+
+.control-buttons {
+    align-self: center;
+
+    display: flex;
+    flex-direction: row;
+    /*  Gap must be set manually in the end implementation  */
+}
+
+.control-buttons .btn {
+    height: 49px;
+}
+
+.control-buttons .btn .btn-text {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+.border-btn {
+    border: 2px solid #05336E !important;
+}

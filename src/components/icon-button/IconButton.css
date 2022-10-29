@@ -1,0 +1,33 @@
+
+.IconBtn {
+    cursor: pointer;
+
+    background: #FFFFFF;
+
+    border: none;
+    border-radius: 10px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IconBtn:hover {
+    background: #ececec;
+}
+
+.IconBtn:active {
+    background: #d3d3d3;
+}
+
+.IconBtn:disabled {
+    cursor: default;
+    background: #d2d2d2;
+    border-color: #8e8e93 !important;
+}
+
+.IconBtn:disabled .IconBtn:hover, .IconBtn:active {
+    background: #d2d2d2;
+}
+

@@ -1,0 +1,98 @@
+.Control .first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 35px 59px;
+}
+
+.Control .line-title {
+    font-family: 'Comfortaa', serif;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.Control .changeBtn {
+    width: 290px;
+}
+
+.Control .control-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+}
+
+.Control .control-form .params {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    width: 60vw;
+}
+
+.Control .control-form .params .params-names {
+    padding-top: 6px;
+    gap: 51px;
+}
+
+.Control .control-form .params .params-inputs {
+    gap: 33px;
+}
+
+.Control .control-form .control-buttons {
+    gap: 85px;
+}
+
+.Control .control-btn {
+    width: 290px;
+}
+
+.Control-mobile .params {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 10px 15px 12px !important;
+
+    width: calc(100% - 30px) !important;
+}
+
+.Control-mobile .param {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+    padding: 10px;
+}
+
+.Control-mobile .params-text {
+    font-family: 'Comfortaa', serif !important;
+    font-size: 20px !important;
+    line-height: 22px !important;
+
+    text-align: left !important;
+}
+
+.Control-mobile input {
+
+    padding: 10px;
+
+    height: calc(42px - 20px - 4px);
+    width: calc(100% - 20px - 4px);
+
+    border-radius: 10px;
+    border-width: 2px;
+    background: #FAFAFA;
+
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #001126;
+}
+
+.Control-mobile .line-title {
+    font-size: 24px;
+    line-height: 27px;
+}

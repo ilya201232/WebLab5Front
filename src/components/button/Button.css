@@ -1,0 +1,42 @@
+.btn {
+    cursor: pointer;
+
+    background: #FFFFFF;
+
+    width: 163px;
+    height: 61px;
+
+    border-radius: 10px;
+    border-color: #05336E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background: #ececec;
+}
+
+.btn:active {
+    background: #d3d3d3;
+}
+
+.btn:disabled {
+    cursor: default;
+    background: #d2d2d2;
+    border-color: #04254f;
+}
+
+.btn:disabled .btn:hover, .btn:active {
+    background: #d2d2d2;
+}
+
+.btn .btn-text {
+    font-family: 'Comfortaa', serif;
+
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #021630;
+}

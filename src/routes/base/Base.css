@@ -1,0 +1,159 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 63px;
+
+    padding: 0 26px 0 65px;
+
+    background: #E7E7E7;
+    box-shadow: 0 2px 21px rgba(0, 0, 0, 0.25);
+
+}
+
+.Base-mobile .header {
+    justify-content: center;
+}
+
+.left-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+}
+
+.header-icon {
+    font-size: 48px !important;
+}
+
+.header-text {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 48px;
+
+    padding: 10px 35px 10px 35px;
+}
+
+
+.header-btn {
+    width: 143px !important;
+    height: 42px !important;
+    background: #E7E7E7 !important;
+}
+
+.header-btn:hover {
+    background: #dadada !important;
+}
+
+.header-btn:active {
+    background: #bbbbbb !important;
+}
+
+.content-wrapper {
+    padding: 30px 70px 0 70px;
+}
+
+.Base-mobile .content-wrapper {
+    padding: 21px 16px 10px;
+}
+
+.current-date-display {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.burger-btn {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+
+    background: #E7E7E7 !important;
+}
+
+.burger-btn:hover {
+    background: #dadada !important;
+}
+
+.burger-btn:active {
+    background: #bbbbbb !important;
+}
+
+.redirect-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11px 0;
+    gap: 25px;
+}
+
+.redirect-btn {
+    width: 227px;
+    background: #E2E2E2 !important;
+}
+
+.redirect-btn:hover {
+    background: #dadada !important;
+}
+
+.redirect-btn:active {
+    background: #bbbbbb !important;
+}
+
+.current-day-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.left-blind {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: calc(73vw - 20px);
+    height: calc(100% - 30px);
+    background: #E2E2E2;
+    box-shadow: -1px 4px 25px rgba(0, 0, 0, 0.25);
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 10px;
+    gap: 20px;
+
+    z-index: 10;
+}
+
+.right-blind {
+    display: none;
+
+    opacity: 0;
+    z-index: 10;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    padding: 0;
+
+    width: 27vw;
+    height: 100%;
+}
+
+.shown {
+    display: flex !important;
+}
